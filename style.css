@@ -1,4 +1,4 @@
-button {
+button, .call-action {
     background-color: #3882F6;
 }
 .header {
@@ -6,11 +6,26 @@ button {
 
 }
 
-.text-main {
+.text-hero, .logo, button {
     color: #F9FAF8;
+}
+
+.text-hero {
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 .text-sec {
     color: #E5E7EB;
+}
+
+.quote {
+    background: #E5E7EB;
+}
+
+.title-pics {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
 }
 /* remember border of images and round it */
