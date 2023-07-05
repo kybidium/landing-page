@@ -6,6 +6,7 @@ img {
     object-fit: cover;
     width: 100px;
     height: 100px;
+    flex-shrink: 0;
 }
 
 .header {
@@ -22,8 +23,14 @@ ul {
     gap: 16px;
 }
 
-.header-top {
+.header-top, .header-bottom {
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom {
+    gap: 10px;
+    padding-bottom: 75px;
 }
 
 .text-hero, .logo, button {
