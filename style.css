@@ -2,6 +2,11 @@ button, .call-action {
     background-color: #3882F6;
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 img {
     object-fit: cover;
     width: 100px;
