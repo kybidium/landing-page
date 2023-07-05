@@ -1,6 +1,12 @@
 button, .call-action {
     background-color: #3882F6;
 }
+
+img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
 .header {
     background-color: #1F2937;
 
