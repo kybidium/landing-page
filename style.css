@@ -7,9 +7,23 @@ img {
     width: 100px;
     height: 100px;
 }
-.header {
-    background-color: #1F2937;
 
+.header {
+    padding: 0 100px;
+    background-color: #1F2937;
+}
+
+.header-top, .header-bottom, ul {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    gap: 16px;
+}
+
+.header-top {
+    justify-content: space-between;
 }
 
 .text-hero, .logo, button {
