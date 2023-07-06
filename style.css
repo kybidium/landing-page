@@ -2,6 +2,7 @@
 e.g. try to apply flex on huge scale first then smaller etc*/
 /*ALSO zoom into the example image, make your site conform more to that normal view
 than to the closed/smaller window view that it currently conforms to. make it a normal landing page.*/
+/*may have to increase font sizes and such*/
 button, .call-action {
     background-color: #3882F6;
 }
@@ -13,8 +14,8 @@ a {
 
 .capts img {
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     flex-shrink: 0;
 }
 
@@ -24,7 +25,7 @@ a {
 }
 
 .header {
-    padding: 0 10%;
+    padding: 0 20%;
     background-color: #1F2937;
 }
 
@@ -40,11 +41,13 @@ a {
 
 .capts {
     justify-content: center;
-    gap: 16px;
+    gap: 200px;
 }
 .capt {
     flex-direction: column;
     width: 100px;
+    align-items: center;
+    text-align: center;
 }
 
 ul {
@@ -59,7 +62,7 @@ ul {
 
 .header-bottom {
     gap: 10px;
-    padding-bottom: 75px;
+    padding: 150px 0;
 }
 
 .text-hero, .logo, button {
@@ -69,6 +72,7 @@ ul {
 .text-hero {
     font-size: 48px;
     font-weight: extra-bold;
+    margin: 0px;
 }
 
 .text-sec {
@@ -81,6 +85,10 @@ ul {
     font-size: 36px;
     font-weight: light italic;
     color: #1F2937;
+}
+
+.logo {
+    margin: 10px 0;
 }
 
 .title-pics {
