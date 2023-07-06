@@ -82,9 +82,24 @@ ul {
 
 .quote {
     background: #E5E7EB;
-    font-size: 36px;
-    font-weight: light italic;
+    padding: 12.5% 25%;
+    margin: 0;
+}
+
+.sec-quote {
     color: #1F2937;
+    font-size: 24px;
+    font-weight: extra-bold;
+    text-align: right;
+
+}
+
+.main-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
 }
 
 .logo {
@@ -96,5 +111,14 @@ ul {
     font-size: 36px;
     font-weight: extra-bold;
     margin: 40px 0px;
+}
+
+.call-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5% 10%;
+    padding: 5% 20%;
+    gap: 20%
 }
 /* remember border of images and round it */
