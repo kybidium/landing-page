@@ -20,12 +20,21 @@ a {
 }
 
 .header {
-    padding: 0 100px;
+    padding: 0 10%;
     background-color: #1F2937;
 }
 
-.header-top, .header-bottom, ul {
+.header-top, .header-bottom, ul, .capts, .capt {
     display: flex;
+}
+
+.capts {
+    justify-content: center;
+    gap: 16px;
+}
+.capt {
+    flex-direction: column;
+    width: 100px;
 }
 
 ul {
@@ -68,5 +77,6 @@ ul {
     color: #1F2937;
     font-size: 36px;
     font-weight: extra-bold;
+    margin: 40px 0px;
 }
 /* remember border of images and round it */
