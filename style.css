@@ -7,11 +7,16 @@ a {
     color: #F9FAF8;
 }
 
-img {
+.capts img {
     object-fit: cover;
     width: 100px;
     height: 100px;
     flex-shrink: 0;
+}
+
+.header img {
+    width: 500px;
+    height: 200px;
 }
 
 .header {
