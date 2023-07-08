@@ -69,6 +69,12 @@ ul {
     color: #F9FAF8;
 }
 
+button {
+    font-weight: extra-bold;
+    padding: 5px 15px;
+    /*round edges*/
+}
+
 .text-hero {
     font-size: 48px;
     font-weight: extra-bold;
@@ -120,5 +126,9 @@ ul {
     margin: 5% 10%;
     padding: 5% 20%;
     gap: 20%
+}
+
+.call-action h1 {
+    color: #E5E7EB;
 }
 /* remember border of images and round it */
