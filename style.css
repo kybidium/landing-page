@@ -1,4 +1,4 @@
-/*still need to simplify css*/
+/*still need to refactor css*/
 button, .call-action {
     background-color: #3882F6;
 }
@@ -57,7 +57,6 @@ ul {
 }
 
 .header-bottom {
-    /*why doesnt the img ehre shrink too*/
     padding: 15vh 0;
 }
 
@@ -70,7 +69,6 @@ button {
     border-radius: 8px;
     border-color: #E5E7EB;
     border-width: 4px;
-    /*round edges*/
 }
 
 .text-hero {
@@ -129,4 +127,3 @@ button {
 .call-action h1 {
     color: #E5E7EB;
 }
-/* remember border of images and round it */
