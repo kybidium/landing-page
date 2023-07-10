@@ -1,8 +1,4 @@
-/*in the end try to see how much of a top-down forest->trees thing you can make this
-e.g. try to apply flex on huge scale first then smaller etc*/
-/*ALSO zoom into the example image, make your site conform more to that normal view
-than to the closed/smaller window view that it currently conforms to. make it a normal landing page.*/
-/*may have to increase font sizes and such*/
+/*still need to simplify css*/
 button, .call-action {
     background-color: #3882F6;
 }
@@ -16,14 +12,12 @@ a {
     object-fit: cover;
     width: 20vw;
     height: 20vw;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 .header-bottom > img {
-    size: auto;
-    transform: scale(0.5) translate(50%, 0);
-    flex-shrink: 1;
-    flex-basis: 0;
+    max-width: 100%;
+    max-height: 300px;
 }
 
 .header {
@@ -64,8 +58,7 @@ ul {
 
 .header-bottom {
     /*why doesnt the img ehre shrink too*/
-    gap: 10px;
-    padding: 30%vh 0;
+    padding: 15vh 0;
 }
 
 .text-hero, .logo, button {
