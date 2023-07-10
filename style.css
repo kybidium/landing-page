@@ -14,14 +14,16 @@ a {
 
 .capts img {
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 20vw;
+    height: 20vw;
     flex-shrink: 0;
 }
 
-.header img {
-    width: 500px;
-    height: 200px;
+.header-bottom > img {
+    size: auto;
+    transform: scale(0.5) translate(50%, 0);
+    flex-shrink: 1;
+    flex-basis: 0;
 }
 
 .header {
@@ -41,7 +43,7 @@ a {
 
 .capts {
     justify-content: center;
-    gap: 200px;
+    gap: 15vw;
 }
 .capt {
     flex-direction: column;
@@ -61,8 +63,9 @@ ul {
 }
 
 .header-bottom {
+    /*why doesnt the img ehre shrink too*/
     gap: 10px;
-    padding: 150px 0;
+    padding: 30%vh 0;
 }
 
 .text-hero, .logo, button {
@@ -70,8 +73,10 @@ ul {
 }
 
 button {
-    font-weight: extra-bold;
     padding: 5px 15px;
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    border-width: 4px;
     /*round edges*/
 }
 
