@@ -9,10 +9,10 @@ a {
 }
 
 .capts img {
-    object-fit: cover;
     width: 20vw;
     height: 20vw;
-    flex-shrink: 1;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .header-bottom > img {
@@ -37,8 +37,9 @@ a {
 
 .capts {
     justify-content: center;
-    gap: 15vw;
+    gap: 10vw;
 }
+
 .capt {
     flex-direction: column;
     width: 100px;
